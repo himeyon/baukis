@@ -15,4 +15,5 @@ production:
   <<: *default
   database: baukis_production
   username: baukis
-  password: <%= ENV['BAUKIS_DATABASE_PASSWORD'] %>
+  password: admin
+  #password: <%= ENV['BAUKIS_DATABASE_PASSWORD'] %>
